@@ -58,6 +58,7 @@ public class PlayerScript : MonoBehaviour
         if (other.gameObject.tag == "Water")
         {
             SceneManager.LoadScene("LoseScene");
+
         }
     }
 }
