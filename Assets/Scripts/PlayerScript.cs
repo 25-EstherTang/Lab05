@@ -33,7 +33,7 @@ public class PlayerScript : MonoBehaviour
 
         TimerText.text = "Timer: " + timeRemaining.ToString();
 
-        if (scorevalue >= 60)
+        if (scorevalue >= totalcoins)
         {
 
                 SceneManager.LoadScene("WinScene");
